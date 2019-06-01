@@ -75,7 +75,6 @@ void mergeSort(double *array, int start, int end){
 int main(){
 	int n;
 	double *array;
-	double temp[4];
 	printf("Enter size of array: ");
 	scanf("%d", &n);
 	array = createArray(n);
