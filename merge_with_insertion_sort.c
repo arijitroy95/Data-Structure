@@ -74,6 +74,8 @@ void merge(double *array, int start, int mid, int end){
 			j++;
 		}
 	}
+	free(left);
+	free(right);
 	
 }
 
